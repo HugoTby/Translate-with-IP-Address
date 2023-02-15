@@ -42,7 +42,7 @@ setlocale(LC_ALL, $language);
 // [FR] Afficher le message de bienvenue (exemple) dans la langue de l'utilisateur définie dans languages_list.php
 // [EN] Display the welcome message (example) in the user's language defined in languages_list.php
 if ($language == 'nl') {
-  echo '<h1>Hallo, hoe gaat het?</h1>'; /
+  echo '<h1>Hallo, hoe gaat het?</h1>'; 
 } else if ($language == 'fr') {
   echo '<h1>Bonjour, comment ça va ?</h1>';
 } else if ($language == 'us') {
