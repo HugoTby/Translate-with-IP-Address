@@ -5,7 +5,7 @@ This code is used to determine the user's language based on their IP address and
 
 The first part of the HTML code is a document type declaration (DOCTYPE) and an HTML tag with a language defined as English. The `<head>` tag contains several `<meta>` tags to specify character encoding, compatibility with Internet Explorer and scaling for mobile devices.
 
-Next, the page includes a PHP file named ``languages_list.php``, which probably contains a list of languages with their corresponding country codes.
+Next, the page includes a PHP file named ``languages_list.php``, which contains a list of languages with their corresponding country codes.
 
 The PHP code starts by retrieving the user's IP address from the global variable ``$_SERVER['REMOTE_ADDR']``. Then it calls the `ipinfo.io` API to retrieve information about the user, such as their language and country, from their IP address. This information is stored in the $info variable.
 
